@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=J7SXGbShbj8
+
+git clone https://github.com/UCA-CORP/API_Team.git
+
+source .venv/Scripts/activate (linux)
