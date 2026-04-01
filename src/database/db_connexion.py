@@ -12,6 +12,7 @@ client = MongoClient(uri, server_api=ServerApi('1'))
 
 db = client.tint_db 
 collection_tint_raw_data = db["tint_raw_data"]
+collection_tint_transformed_data = db["tint_transformed_data"]
 
 try:
     client.admin.command('ping')

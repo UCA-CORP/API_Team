@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from src.crud_functions import *
-from src.database.models import Partie
+from src.database.raw_data.models_raw_data import Partie
 
 router = APIRouter(prefix="/parties", tags=["parties"])
 

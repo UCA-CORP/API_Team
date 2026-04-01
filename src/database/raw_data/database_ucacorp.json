@@ -1,9 +1,9 @@
 [
     {
         "Partie": 1,
-        "utilisateur": "minion",
-        "score_final": 1206,
-        "temps_jeu": 372,
+        "utilisateur": "Inconnu",
+        "score_final": 0,
+        "temps_jeu": 0,
         "Tours": [
             {
                 "Tour": 0,
@@ -601,7 +601,7 @@
                     "Shape(6)": 1,
                     "Sum": 5,
                     "Score_ration": 3,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -2228,7 +2228,7 @@
                     "Shape(6)": 3,
                     "Sum": 19,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -2424,7 +2424,15 @@
                         "position": "4:7"
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "Partie": 2,
+        "utilisateur": "Inconnu",
+        "score_final": 0,
+        "temps_jeu": 0,
+        "Tours": [
             {
                 "Tour": 0,
                 "Level": 9,
@@ -2907,7 +2915,7 @@
                     "Shape(6)": 0,
                     "Sum": 4,
                     "Score_ration": 6,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -3076,7 +3084,7 @@
                     "Shape(6)": 1,
                     "Sum": 5,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -3220,7 +3228,7 @@
                     "Shape(6)": 1,
                     "Sum": 6,
                     "Score_ration": 10,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -3370,7 +3378,7 @@
                     "Shape(6)": 1,
                     "Sum": 7,
                     "Score_ration": 10,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -3521,7 +3529,7 @@
                     "Shape(6)": 1,
                     "Sum": 8,
                     "Score_ration": 10,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -3652,7 +3660,7 @@
                     "Shape(6)": 1,
                     "Sum": 9,
                     "Score_ration": 10,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -3782,7 +3790,7 @@
                     "Shape(6)": 1,
                     "Sum": 10,
                     "Score_ration": 10,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -3894,7 +3902,7 @@
                     "Shape(6)": 1,
                     "Sum": 11,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -4040,7 +4048,7 @@
                     "Shape(6)": 1,
                     "Sum": 12,
                     "Score_ration": 9,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -4166,7 +4174,7 @@
                     "Shape(6)": 1,
                     "Sum": 13,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -4273,7 +4281,7 @@
                     "Shape(6)": 2,
                     "Sum": 14,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -4387,7 +4395,7 @@
                     "Shape(6)": 2,
                     "Sum": 15,
                     "Score_ration": 9,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -4488,7 +4496,7 @@
                     "Shape(6)": 2,
                     "Sum": 16,
                     "Score_ration": 9,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -4582,7 +4590,7 @@
                     "Shape(6)": 2,
                     "Sum": 17,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -4664,7 +4672,7 @@
                     "Shape(6)": 2,
                     "Sum": 18,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -4755,7 +4763,7 @@
                     "Shape(6)": 2,
                     "Sum": 19,
                     "Score_ration": 9,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -4843,7 +4851,7 @@
                     "Shape(6)": 3,
                     "Sum": 20,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -4939,7 +4947,7 @@
                     "Shape(6)": 3,
                     "Sum": 21,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -5002,7 +5010,7 @@
                     "Shape(6)": 3,
                     "Sum": 22,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -5040,7 +5048,7 @@
                     "Shape(6)": 4,
                     "Sum": 23,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -5079,7 +5087,7 @@
                     "Shape(6)": 4,
                     "Sum": 24,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -5096,7 +5104,15 @@
                         "position": "4:2"
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "Partie": 3,
+        "utilisateur": "minion",
+        "score_final": 1206,
+        "temps_jeu": 372,
+        "Tours": [
             {
                 "Tour": 0,
                 "Level": 9,
@@ -6288,7 +6304,7 @@
         ]
     },
     {
-        "Partie": 2,
+        "Partie": 4,
         "utilisateur": "kk",
         "score_final": 207,
         "temps_jeu": 432,
@@ -6471,7 +6487,7 @@
                     "Shape(6)": 1,
                     "Sum": 2,
                     "Score_ration": 4,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -6633,7 +6649,7 @@
                     "Shape(6)": 1,
                     "Sum": 3,
                     "Score_ration": 6,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -6769,7 +6785,7 @@
                     "Shape(6)": 1,
                     "Sum": 4,
                     "Score_ration": 6,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -6905,7 +6921,7 @@
                     "Shape(6)": 1,
                     "Sum": 5,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -7042,7 +7058,7 @@
                     "Shape(6)": 1,
                     "Sum": 6,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -7166,7 +7182,7 @@
                     "Shape(6)": 1,
                     "Sum": 7,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -7298,7 +7314,7 @@
                     "Shape(6)": 1,
                     "Sum": 8,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -7411,7 +7427,7 @@
                     "Shape(6)": 1,
                     "Sum": 9,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -7543,7 +7559,7 @@
                     "Shape(6)": 1,
                     "Sum": 10,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -7653,7 +7669,7 @@
                     "Shape(6)": 1,
                     "Sum": 11,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -7746,7 +7762,7 @@
                     "Shape(6)": 1,
                     "Sum": 12,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -7852,7 +7868,7 @@
                     "Shape(6)": 1,
                     "Sum": 13,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -7953,7 +7969,7 @@
                     "Shape(6)": 2,
                     "Sum": 14,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -8047,7 +8063,7 @@
                     "Shape(6)": 2,
                     "Sum": 15,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -8142,7 +8158,7 @@
                     "Shape(6)": 2,
                     "Sum": 16,
                     "Score_ration": 8,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -8231,7 +8247,7 @@
                     "Shape(6)": 2,
                     "Sum": 17,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -8300,7 +8316,7 @@
                     "Shape(6)": 2,
                     "Sum": 18,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -8369,7 +8385,7 @@
                     "Shape(6)": 3,
                     "Sum": 19,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -8439,7 +8455,7 @@
                     "Shape(6)": 3,
                     "Sum": 20,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -8509,7 +8525,7 @@
                     "Shape(6)": 3,
                     "Sum": 21,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -8566,7 +8582,7 @@
                     "Shape(6)": 3,
                     "Sum": 22,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -8598,7 +8614,7 @@
                     "Shape(6)": 3,
                     "Sum": 23,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -8619,7 +8635,7 @@
         ]
     },
     {
-        "Partie": 3,
+        "Partie": 5,
         "utilisateur": "Kenny",
         "score_final": 226,
         "temps_jeu": 489,
@@ -9120,7 +9136,7 @@
                     "Shape(6)": 0,
                     "Sum": 4,
                     "Score_ration": 6,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -9297,7 +9313,7 @@
                     "Shape(6)": 0,
                     "Sum": 5,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -9441,7 +9457,7 @@
                     "Shape(6)": 1,
                     "Sum": 6,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -9591,7 +9607,7 @@
                     "Shape(6)": 1,
                     "Sum": 7,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -9728,7 +9744,7 @@
                     "Shape(6)": 1,
                     "Sum": 8,
                     "Score_ration": 7,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -9859,7 +9875,7 @@
                     "Shape(6)": 1,
                     "Sum": 9,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -9963,7 +9979,7 @@
                     "Shape(6)": 1,
                     "Sum": 10,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -10109,7 +10125,7 @@
                     "Shape(6)": 1,
                     "Sum": 11,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -10222,7 +10238,7 @@
                     "Shape(6)": 1,
                     "Sum": 12,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -10343,7 +10359,7 @@
                     "Shape(6)": 1,
                     "Sum": 13,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -10455,7 +10471,7 @@
                     "Shape(6)": 2,
                     "Sum": 14,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -10543,7 +10559,7 @@
                     "Shape(6)": 3,
                     "Sum": 15,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -10650,7 +10666,7 @@
                     "Shape(6)": 3,
                     "Sum": 16,
                     "Score_ration": 8,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -10750,7 +10766,7 @@
                     "Shape(6)": 3,
                     "Sum": 17,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -10909,7 +10925,7 @@
                     "Shape(6)": 3,
                     "Sum": 18,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -11004,7 +11020,7 @@
                     "Shape(6)": 3,
                     "Sum": 19,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -11101,7 +11117,7 @@
                     "Shape(6)": 3,
                     "Sum": 20,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -11210,7 +11226,7 @@
                     "Shape(6)": 3,
                     "Sum": 21,
                     "Score_ration": 9,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -11287,7 +11303,7 @@
                     "Shape(6)": 4,
                     "Sum": 22,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -11340,7 +11356,7 @@
                     "Shape(6)": 4,
                     "Sum": 23,
                     "Score_ration": 9,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -11361,7 +11377,7 @@
         ]
     },
     {
-        "Partie": 4,
+        "Partie": 6,
         "utilisateur": "LaFrappeDu77",
         "score_final": 189,
         "temps_jeu": 543,
@@ -11747,7 +11763,7 @@
                     "Shape(6)": 1,
                     "Sum": 3,
                     "Score_ration": 6,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -11904,7 +11920,7 @@
                     "Shape(6)": 1,
                     "Sum": 4,
                     "Score_ration": 6,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -12060,7 +12076,7 @@
                     "Shape(6)": 1,
                     "Sum": 5,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -12205,7 +12221,7 @@
                     "Shape(6)": 1,
                     "Sum": 6,
                     "Score_ration": 7,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -12358,7 +12374,7 @@
                     "Shape(6)": 1,
                     "Sum": 7,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -12516,7 +12532,7 @@
                     "Shape(6)": 1,
                     "Sum": 8,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -12658,7 +12674,7 @@
                     "Shape(6)": 1,
                     "Sum": 9,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -12804,7 +12820,7 @@
                     "Shape(6)": 1,
                     "Sum": 10,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -12910,7 +12926,7 @@
                     "Shape(6)": 2,
                     "Sum": 11,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -13056,7 +13072,7 @@
                     "Shape(6)": 2,
                     "Sum": 12,
                     "Score_ration": 8,
-                    "Efficiency": 3
+                    "Efficiency": -3
                 },
                 "Actions": [
                     {
@@ -13190,7 +13206,7 @@
                     "Shape(6)": 2,
                     "Sum": 13,
                     "Score_ration": 8,
-                    "Efficiency": 4
+                    "Efficiency": -4
                 },
                 "Actions": [
                     {
@@ -13324,7 +13340,7 @@
                     "Shape(6)": 2,
                     "Sum": 14,
                     "Score_ration": 8,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -13439,7 +13455,7 @@
                     "Shape(6)": 2,
                     "Sum": 15,
                     "Score_ration": 8,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -13527,7 +13543,7 @@
                     "Shape(6)": 2,
                     "Sum": 16,
                     "Score_ration": 8,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -13655,7 +13671,7 @@
                     "Shape(6)": 2,
                     "Sum": 17,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -13757,7 +13773,7 @@
                     "Shape(6)": 3,
                     "Sum": 18,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -13827,7 +13843,7 @@
                     "Shape(6)": 3,
                     "Sum": 19,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -13885,7 +13901,7 @@
                     "Shape(6)": 3,
                     "Sum": 20,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -13931,7 +13947,7 @@
                     "Shape(6)": 3,
                     "Sum": 21,
                     "Score_ration": 8,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -13952,7 +13968,7 @@
         ]
     },
     {
-        "Partie": 5,
+        "Partie": 7,
         "utilisateur": "31",
         "score_final": 639,
         "temps_jeu": 570,
@@ -14601,7 +14617,7 @@
                     "Shape(6)": 1,
                     "Sum": 5,
                     "Score_ration": 10,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -15085,10 +15101,10 @@
         ]
     },
     {
-        "Partie": 6,
-        "utilisateur": "aurelien",
-        "score_final": 639,
-        "temps_jeu": 64,
+        "Partie": 8,
+        "utilisateur": "Inconnu",
+        "score_final": 0,
+        "temps_jeu": 0,
         "Tours": [
             {
                 "Tour": 0,
@@ -15452,7 +15468,7 @@
                     "Shape(6)": 0,
                     "Sum": 3,
                     "Score_ration": 6,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -15607,7 +15623,7 @@
                     "Shape(6)": 0,
                     "Sum": 4,
                     "Score_ration": 6,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -15751,7 +15767,7 @@
                     "Shape(6)": 1,
                     "Sum": 5,
                     "Score_ration": 7,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -15958,7 +15974,7 @@
                     "Shape(6)": 1,
                     "Sum": 6,
                     "Score_ration": 7,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -16037,7 +16053,15 @@
                         "position": "5:10"
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "Partie": 9,
+        "utilisateur": "aurelien",
+        "score_final": 639,
+        "temps_jeu": 64,
+        "Tours": [
             {
                 "Tour": 0,
                 "Level": 9,
@@ -16895,7 +16919,7 @@
                     "Shape(6)": 1,
                     "Sum": 7,
                     "Score_ration": 27,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -18625,7 +18649,7 @@
         ]
     },
     {
-        "Partie": 7,
+        "Partie": 10,
         "utilisateur": "aurelien",
         "score_final": 294,
         "temps_jeu": 211,
@@ -20465,7 +20489,7 @@
                     "Shape(6)": 2,
                     "Sum": 15,
                     "Score_ration": 6,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -22459,7 +22483,7 @@
                     "Shape(6)": 5,
                     "Sum": 34,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -22574,7 +22598,7 @@
                     "Shape(6)": 5,
                     "Sum": 35,
                     "Score_ration": 7,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -22689,7 +22713,7 @@
                     "Shape(6)": 5,
                     "Sum": 36,
                     "Score_ration": 7,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -22812,7 +22836,7 @@
                     "Shape(6)": 5,
                     "Sum": 37,
                     "Score_ration": 6,
-                    "Efficiency": 3
+                    "Efficiency": -3
                 },
                 "Actions": [
                     {
@@ -22896,7 +22920,7 @@
                     "Shape(6)": 5,
                     "Sum": 38,
                     "Score_ration": 6,
-                    "Efficiency": 2
+                    "Efficiency": -2
                 },
                 "Actions": [
                     {
@@ -23279,7 +23303,7 @@
                     "Shape(6)": 6,
                     "Sum": 42,
                     "Score_ration": 6,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -23358,7 +23382,7 @@
                     "Shape(6)": 6,
                     "Sum": 43,
                     "Score_ration": 6,
-                    "Efficiency": 1
+                    "Efficiency": -1
                 },
                 "Actions": [
                     {
@@ -23455,7 +23479,7 @@
                     "Shape(6)": 6,
                     "Sum": 44,
                     "Score_ration": 6,
-                    "Efficiency": 3
+                    "Efficiency": -3
                 },
                 "Actions": [
                     {

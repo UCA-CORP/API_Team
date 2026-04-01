@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException, status
-from ..database.models import Tour
+from ..database.raw_data.models_raw_data import Tour
 from src.crud_functions import *
 
 router = APIRouter(

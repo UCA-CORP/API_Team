@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException, status
-from src.database.models import Action
+from src.database.raw_data.models_raw_data import Action
 from src.crud_functions import *
 
 router = APIRouter(
