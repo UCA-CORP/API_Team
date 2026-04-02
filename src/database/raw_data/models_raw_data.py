@@ -2,13 +2,31 @@ from pydantic import BaseModel, Field
 from typing import Optional
 
 
+from pydantic import BaseModel, Field, AliasChoices
+from typing import Optional
+
+
 class Action(BaseModel):
-    timestamp: float
+    timestamp: Optional[float] = None
     type: str
-    shape: int
-    position: Optional[str] = None
-    position_depart: Optional[str] = None
-    position_arrivee: Optional[str] = None
+    shape: Optional[int] = None
+
+    position: Optional[str] = Field(
+        default=None,
+        validation_alias=AliasChoices("position", "pos")
+    )
+    position_depart: Optional[str] = Field(
+        default=None,
+        validation_alias=AliasChoices("position_depart", "start")
+    )
+    position_arrivee: Optional[str] = Field(
+        default=None,
+        validation_alias=AliasChoices("position_arrivee", "end")
+    )
+
+    value: Optional[str] = None
+
+    model_config = {"populate_by_name": True}
 
 
 class Statistiques(BaseModel):
