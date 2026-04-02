@@ -1,13 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from src.crud_functions import *
-from src.database.raw_data.models_raw_data import (
-    KPIGlobauxResponse,
-    UserLevelPoint,
-    LevelCountPoint,
-    ScoreFinalEvolutionPoint,
-    ScoreTourEvolutionPoint
-)
-
+from src.database.raw_data.models_raw_data import *
 
 router = APIRouter(prefix="/analytics", tags=["analytics"])
 
@@ -23,10 +16,11 @@ async def lire_users_level():
 
 
 @router.get("/evolution/score-final", response_model=list[ScoreFinalEvolutionPoint])
-async def lire_evolution_score_final(utilisateur: str, partie: int ):
-    return get_score_final_evolution(utilisateur=utilisateur, partie=partie)
+async def lire_evolution_score_final():
+    return get_score_final_evolution()
 
 
 @router.get("/evolution/performance", response_model=list[ScoreTourEvolutionPoint])
-async def lire_evolution_performance(utilisateur: str, partie: int ):
-    return get_score_tour_evolution(partie=partie, utilisateur=utilisateur)
+async def lire_evolution_performance():
+    return get_score_tour_evolution()
+

@@ -18,6 +18,7 @@ GET /parties/{id}/tours  # Lister les tours d'une partie
 GET /parties/{id}/tours/{id}   # Lister les informations d'un tour d'une partie à partir de leur id
 GET /parties/{id}/tours/{tour}/actions  # Lister les actions d'un tour
 GET /parties/{id}/tours/{tour}/statistiques   # Lister les statistiques d'un tour
+GET /analytics/
 
 pour lancer le serveur
 uvicorn src.main:app --reload
@@ -38,3 +39,7 @@ Notes importantes :
 # Les champs dans les models doivent être les mêmes que dans la base de données
 
 
+# sur mongodb
+mongosh
+use tint_db
+tint_raw_data

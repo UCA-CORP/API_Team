@@ -79,16 +79,23 @@ def get_kpi_globaux():
     )
 
     total_parties = len(parties)
+
     avg_score_final = (
         round(sum(p.get("score_final", 0) for p in parties) / total_parties, 2)
         if total_parties > 0
         else 0.0
     )
 
-    #GAME_MAX_SCORE = ??
+    max_doc = collection_tint_raw_data.find_one(
+        {},
+        {"_id": 0, "score_final": 1},
+        sort=[("score_final", -1)]
+    )
+
+    max_score = max_doc["score_final"] if max_doc else 0
 
     return {
-        #"max_score": GAME_MAX_SCORE,
+        "max_score": max_score,
         "total_parties": total_parties,
         "avg_score_final": avg_score_final
     }
@@ -119,11 +126,28 @@ def get_users_level_points():
 
     return result
 
+def get_score_final_evolution():
+    parties = list(
+        collection_tint_raw_data.find(
+            {},
+            {"_id": 0, "Partie": 1, "utilisateur": 1, "score_final": 1}
+        ).sort([
+            ("utilisateur", 1),
+            ("Partie", 1)
+        ])
+    )
 
+    return [
+        {
+            "partie": p.get("Partie", 0),
+            "utilisateur": p.get("utilisateur", "Inconnu"),
+            "score_final": p.get("score_final", 0)
+        }
+        for p in parties
+    ]
 
-
-# celles en dessous à valider et tester
-def get_score_final_evolution(utilisateur: str, partie: int):
+# ici en entrant les paramètres
+"""def get_score_final_evolution(utilisateur: str, partie: int):
     query = {}
 
     if utilisateur is not None:
@@ -147,9 +171,31 @@ def get_score_final_evolution(utilisateur: str, partie: int):
         }
         for p in parties
     ]
+"""
 
+def get_score_tour_evolution():
+    parties = list(
+        collection_tint_raw_data.find(
+            {},
+            {"_id": 0, "Partie": 1, "utilisateur": 1, "Tours.Tour": 1, "Tours.Score": 1}
+        )
+    )
 
-def get_score_tour_evolution(partie: int | None = None, utilisateur: str | None = None):
+    result = []
+
+    for p in parties:
+        for tour in p.get("Tours", []):
+            result.append({
+                "partie": p.get("Partie", 0),
+                "utilisateur": p.get("utilisateur", "Inconnu"),
+                "tour": tour.get("Tour", 0),
+                "score": tour.get("Score", 0)
+            })
+
+    result.sort(key=lambda x: (x["utilisateur"], x["partie"], x["tour"]))
+    return result
+
+"""def get_score_tour_evolution(partie: int | None = None, utilisateur: str | None = None):
     query = {}
 
     if partie is not None:
@@ -177,6 +223,5 @@ def get_score_tour_evolution(partie: int | None = None, utilisateur: str | None 
             })
 
     result.sort(key=lambda x: (x["utilisateur"], x["partie"], x["tour"]))
-    return result
-
+    return result"""
 
