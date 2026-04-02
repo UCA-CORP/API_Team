@@ -23,11 +23,13 @@ pour lancer le serveur
 uvicorn src.main:app --reload
 
 outils et technologie: 
+mongod : le serveur mongodb
+mongosh : le client mongodb
 mongo compass : pour la gestion de la base de données
 vscode : IDE pour le developpement des endpoints
 python : le langage de programmation utilisé
 requirements.txt : ensembles des parckages installé dans le projet
-
+pip install -r requirements.txt.
 
 
 

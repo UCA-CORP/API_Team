@@ -40,3 +40,34 @@ class Partie(BaseModel):
     score_final: int
     temps_jeu: int
     Tours: list[Tour]
+
+
+class KPIGlobauxResponse(BaseModel):
+    max_score: int
+    total_parties: int
+    avg_score_final: float
+
+
+class UserLevelPoint(BaseModel):
+    utilisateur: str
+    level: int
+
+
+class LevelCountPoint(BaseModel):
+    level: int
+    total_users: int
+
+
+class ScoreFinalEvolutionPoint(BaseModel):
+    partie: int
+    utilisateur: str
+    score_final: int
+
+
+class ScoreTourEvolutionPoint(BaseModel):
+    partie: int
+    utilisateur: str
+    tour: int
+    score: int
+
+
